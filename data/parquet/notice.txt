@@ -1,0 +1,2 @@
+Due to large space needed for Parquet files storage, first download CSV files from Google Drive,
+and then create Parquet files with scripts/preprocess_flights.py

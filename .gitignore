@@ -1,0 +1,9 @@
+# Python / Virtual Environment
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Large Data
+data/parquet/*.parquet
+data/csv/*.csv
