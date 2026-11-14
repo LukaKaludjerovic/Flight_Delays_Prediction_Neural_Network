@@ -1,2 +1,6 @@
 Due to large space needed for Parquet files storage, first download CSV files from Google Drive,
 and then create Parquet files with scripts/preprocess_flights.py
+
+Alternatively, you can download already generated Parquet file from Google Drive
+
+Link: https://drive.google.com/file/d/1y8wcx5apoWxx55tvsIbqf4-2HnLPikyH/view?usp=share_link
