@@ -1,0 +1,12 @@
+{
+  "DepDelay_MAE": 12.2975,
+  "DepDelay_RMSE": 46.2341,
+  "ArrDelay_MAE": 17.3828,
+  "ArrDelay_RMSE": 48.2771,
+  "DepDel15_Accuracy": 0.8854,
+  "DepDel15_F1": 0.6825,
+  "DepDel15_AUC_ROC": 0.8666,
+  "ArrDel15_Accuracy": 0.8596,
+  "ArrDel15_F1": 0.6009,
+  "ArrDel15_AUC_ROC": 0.8354
+}
