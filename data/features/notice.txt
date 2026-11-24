@@ -1,0 +1,10 @@
+Due to large space needed for Parquet files storage, first download CSV files from Google Drive,
+then create Parquet files with scripts/preprocess_flights.py,
+and then create scoped, test, train and validation Parquet files using scripts/build_features.py
+
+Alternatively, you can download already generated Parquet files from Google Drive
+
+Link (scoped): https://drive.google.com/file/d/1BPrKmhzBFxNz-z4FboppXUoxRwmTDVjc/view?usp=share_link
+Link (test): https://drive.google.com/file/d/1pEgWekxTfmCSt191CVVgcO3ckSWS8doZ/view?usp=share_link
+Link (train): https://drive.google.com/file/d/1Afl4W9lpbWGb9LzLY_UVuLXh-_SkdzKL/view?usp=share_link
+Link (validation): https://drive.google.com/file/d/1xP15eurL8IQ25B7iMlAVs8Pn97jPi-tg/view?usp=share_link
