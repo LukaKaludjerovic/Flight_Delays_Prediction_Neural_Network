@@ -1,0 +1,122 @@
+[
+  {
+    "model": "Ridge",
+    "target": "DepDelay",
+    "split": "val",
+    "MAE": 23.8747,
+    "RMSE": 58.5953
+  },
+  {
+    "model": "Ridge",
+    "target": "DepDelay",
+    "split": "test",
+    "MAE": 21.0704,
+    "RMSE": 51.4153
+  },
+  {
+    "model": "HistGB_Reg",
+    "target": "DepDelay",
+    "split": "val",
+    "MAE": 16.7859,
+    "RMSE": 51.4061
+  },
+  {
+    "model": "HistGB_Reg",
+    "target": "DepDelay",
+    "split": "test",
+    "MAE": 14.7773,
+    "RMSE": 45.0276
+  },
+  {
+    "model": "Ridge",
+    "target": "ArrDelay",
+    "split": "val",
+    "MAE": 26.8837,
+    "RMSE": 60.1587
+  },
+  {
+    "model": "Ridge",
+    "target": "ArrDelay",
+    "split": "test",
+    "MAE": 24.1222,
+    "RMSE": 53.2968
+  },
+  {
+    "model": "HistGB_Reg",
+    "target": "ArrDelay",
+    "split": "val",
+    "MAE": 20.9653,
+    "RMSE": 53.2923
+  },
+  {
+    "model": "HistGB_Reg",
+    "target": "ArrDelay",
+    "split": "test",
+    "MAE": 19.0557,
+    "RMSE": 47.2355
+  },
+  {
+    "model": "Logistic_SGD",
+    "target": "DepDel15",
+    "split": "val",
+    "Accuracy": 0.8279,
+    "F1": 0.5625,
+    "AUC_ROC": 0.8059
+  },
+  {
+    "model": "Logistic_SGD",
+    "target": "DepDel15",
+    "split": "test",
+    "Accuracy": 0.8405,
+    "F1": 0.5457,
+    "AUC_ROC": 0.7969
+  },
+  {
+    "model": "HistGB_Clf",
+    "target": "DepDel15",
+    "split": "val",
+    "Accuracy": 0.8776,
+    "F1": 0.6992,
+    "AUC_ROC": 0.8762
+  },
+  {
+    "model": "HistGB_Clf",
+    "target": "DepDel15",
+    "split": "test",
+    "Accuracy": 0.8852,
+    "F1": 0.6785,
+    "AUC_ROC": 0.8678
+  },
+  {
+    "model": "Logistic_SGD",
+    "target": "ArrDel15",
+    "split": "val",
+    "Accuracy": 0.8083,
+    "F1": 0.4903,
+    "AUC_ROC": 0.7878
+  },
+  {
+    "model": "Logistic_SGD",
+    "target": "ArrDel15",
+    "split": "test",
+    "Accuracy": 0.8196,
+    "F1": 0.4513,
+    "AUC_ROC": 0.7727
+  },
+  {
+    "model": "HistGB_Clf",
+    "target": "ArrDel15",
+    "split": "val",
+    "Accuracy": 0.8531,
+    "F1": 0.6326,
+    "AUC_ROC": 0.8512
+  },
+  {
+    "model": "HistGB_Clf",
+    "target": "ArrDel15",
+    "split": "test",
+    "Accuracy": 0.8591,
+    "F1": 0.5943,
+    "AUC_ROC": 0.836
+  }
+]
