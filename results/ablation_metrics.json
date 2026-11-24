@@ -1,0 +1,62 @@
+[
+  {
+    "variant": "base_only",
+    "num_features": 6,
+    "DepDelay_MAE": 19.2527,
+    "DepDelay_RMSE": 56.722,
+    "ArrDelay_MAE": 23.8969,
+    "ArrDelay_RMSE": 59.1477,
+    "DepDel15_Accuracy": 0.7796,
+    "DepDel15_F1": 0.0478,
+    "DepDel15_AUC_ROC": 0.6839,
+    "ArrDel15_Accuracy": 0.7755,
+    "ArrDel15_F1": 0.0196,
+    "ArrDel15_AUC_ROC": 0.6563,
+    "runtime_sec": 74.7
+  },
+  {
+    "variant": "rotation_only",
+    "num_features": 13,
+    "DepDelay_MAE": 12.5973,
+    "DepDelay_RMSE": 47.1942,
+    "ArrDelay_MAE": 18.3645,
+    "ArrDelay_RMSE": 49.9142,
+    "DepDel15_Accuracy": 0.8812,
+    "DepDel15_F1": 0.6673,
+    "DepDel15_AUC_ROC": 0.8541,
+    "ArrDel15_Accuracy": 0.8501,
+    "ArrDel15_F1": 0.5523,
+    "ArrDel15_AUC_ROC": 0.8008,
+    "runtime_sec": 75.2
+  },
+  {
+    "variant": "hub_only",
+    "num_features": 11,
+    "DepDelay_MAE": 18.3373,
+    "DepDelay_RMSE": 54.9465,
+    "ArrDelay_MAE": 22.3934,
+    "ArrDelay_RMSE": 56.4886,
+    "DepDel15_Accuracy": 0.7961,
+    "DepDel15_F1": 0.2461,
+    "DepDel15_AUC_ROC": 0.731,
+    "ArrDel15_Accuracy": 0.7974,
+    "ArrDel15_F1": 0.2761,
+    "ArrDel15_AUC_ROC": 0.7278,
+    "runtime_sec": 75.2
+  },
+  {
+    "variant": "full_hybrid",
+    "num_features": 18,
+    "DepDelay_MAE": 12.3051,
+    "DepDelay_RMSE": 46.5485,
+    "ArrDelay_MAE": 17.4614,
+    "ArrDelay_RMSE": 48.6215,
+    "DepDel15_Accuracy": 0.8849,
+    "DepDel15_F1": 0.6754,
+    "DepDel15_AUC_ROC": 0.8661,
+    "ArrDel15_Accuracy": 0.8598,
+    "ArrDel15_F1": 0.5948,
+    "ArrDel15_AUC_ROC": 0.8338,
+    "runtime_sec": 75.7
+  }
+]
